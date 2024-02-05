@@ -3,18 +3,18 @@
 </script>
 
 <template>
-  <container class="container">
+  <div class="container">
     <h1>Sebastian Vargas</h1>
     <div>
       <h3>Posts</h3>
       <li class="blog-list">
         <router-link
-          to="/blog/1">
+          to="/blog/firstBlog">
           Blog #1
         </router-link>
       </li>
     </div>
-  </container>
+  </div>
   <router-view></router-view>
 </template>
 
